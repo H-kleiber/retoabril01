@@ -1,33 +1,33 @@
-body{
+*{
     margin: 0;
-    padding: 0;
+}
+body{
+    margin: auto;
+    width: 600px;
 }
 .portada{
 background-image: url("../img/1.png");
-width: 600px;
 text-align: center;
 height: 400px;
 background-color: aqua;
-margin: 0 auto;
-position: relative;
+}
+h1{
+    font-size: 45px;
+    padding-top: 20px;  
 }
 h1,h2{
     color: #FFFFFF;
+    padding-top: 20px;
 }
 .msj{
-    position: absolute;
     margin-top: 210px;
     margin-left: 20px;
     width: 200px; 
     background-color:rgba(232, 252, 248, 0.4);
 }
-
 .about{
     background-color: #7299FE;
-    margin: 0 auto;
-    width: 600px;
-    height: 400px;
-    
+    height: 400px; 
 }
 h2{
     text-align: center;
@@ -35,7 +35,7 @@ h2{
 p{
     color: #F8F8F8;
 }
-div{
+.parrafo{
     margin: 10px;
     text-align: justify;
 }
@@ -46,26 +46,20 @@ div{
     background-color: #D16FFF;
     color: #F8F8F8;
     text-align: center;   
+    
 }
 .skill{
     background-color: #9022FF;
-    width: 600px;
-    height: 250px;
-    margin: 0 auto;
-    
+    height: 250px; 
 }
 .skill h2, label{
     color: #FFFFFF;
     text-align: center;
-    margin: 15px;
-   
+    
 }
-
 .portafolio{
     background-color:#FFD233;
-    width: 600px;
-    height: 300px;
-    margin: 0 auto;
+    height: 300px; 
 }
 .image-porta{
     margin: 0 auto;
@@ -76,11 +70,9 @@ div{
     background-repeat: no-repeat;
 }
 .cliente{
-    width: 600px;
+    
     height: 200px;
-    margin: 0 auto;
     background-color: #3F4E62;
-
 }
 .image-cliente{
     margin: 0 auto;
@@ -91,7 +83,7 @@ div{
     background-repeat: no-repeat;
 }
 .contacto{
-    width: 600px;
+    
     height: 400px;
     margin: 0 auto;
     background-color: #1687A0;
@@ -118,8 +110,7 @@ div{
 }
 .caja1{
     width: 500px;
-    height: 30px;
-    
+    height: 30px; 
 }
 .caja2{
     background-color: #e8e2e2;
@@ -137,8 +128,9 @@ div{
     margin: 0;
 }
 .padre-skill {
-   
+    margin: 15px;
     width: 550px;
     height: 300px;
     position:relative
+
 }
